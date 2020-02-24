@@ -30,6 +30,7 @@ spec:
   ports:
     - port: 8080
       targetPort: 8080
+      nodePort : 30099
   selector:
     name: springboot
 ---
@@ -74,6 +75,5 @@ spec:
   ports:
     - port: 27017
       targetPort: 27017
-      nodePort : 30099
   selector:
     name: mongo
