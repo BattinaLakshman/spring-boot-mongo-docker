@@ -20,7 +20,7 @@ spec:
         name: springboot
     spec:
       containers:
-      - image: battinalakshman/sbmd:versionNumber
+      - image: battinalakshman/sbmd
         name:  springbootcontainer
         ports:
         - containerPort: 8080
