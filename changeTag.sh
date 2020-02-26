@@ -1,1 +1,1 @@
-sed "versionNumber" ${buildNumber} > springBootMongo.yml
+sed 's/VersionNumber/${buildNumber}/' springBootMongo.yml
