@@ -1,1 +1,1 @@
-sed "s/versionNumber/$1/g" springBootMongo.yml > node-app-pod.yml
+sed "s/versionNumber/$1/g" springBootMongo.yml > spring-boot-mongo-docker/springBootMongo.yml
